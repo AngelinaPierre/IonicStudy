@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ionic Loader Examples
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-button 
+    color="primary" 
+    expand="block"
+    (click)="displayAutoLoader()" 
+  >Show auto loader</ion-button>
+  <ion-button
+    color="success"
+    expand="block"
+    (click)="showLoader()"
+  >Display Loader</ion-button>
+  <ion-button
+  color="danger"
+  expand="block"
+  (click)="hideLoader()"
+  >Close Loader</ion-button>
+  <ion-button
+    color="light"
+    expand="block"
+    (click)="customizeLoader()"
+  >Show Customized Loader</ion-button>
+  
+</ion-content>

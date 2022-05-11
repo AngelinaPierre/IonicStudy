@@ -1,0 +1,7 @@
+{
+  "name": "ionic-loader-examples",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
